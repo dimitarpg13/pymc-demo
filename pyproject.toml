@@ -9,6 +9,12 @@ readme = "README.md"
 python = "^3.10"
 pytensor = {version = "^2.20.0", python="^3.10,<3.13"}
 pymc = "^5.13.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+scipy = "<1.13.0"
+arviz = "^0.18.0"
+preliz = "^0.5.0"
 
 [build-system]
 requires = ["poetry-core"]
